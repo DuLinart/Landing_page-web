@@ -1,0 +1,23 @@
+body {
+	background-image: url('../Assets/img/O81G5F0.jpg');
+	background-size: inherit;
+}
+
+.row {
+	max-width: 100%
+}
+
+#header-container {
+	background-color: white;
+	margin-top: 20px;
+}
+
+#header-container img {
+	width: 200px;
+	max-width: 80%;
+}
+
+#header-container h2 {
+	margin-top: 10px;
+	font-size: 25px;
+}
