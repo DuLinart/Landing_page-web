@@ -3,6 +3,11 @@ body {
 	background-size: inherit;
 }
 
+label,
+a {
+	color: white;
+}
+
 .row {
 	max-width: 100%
 }
@@ -80,4 +85,58 @@ body {
 
 [type='checkbox'] + label[for], [type='radio'] + label[for] {
 	margin-bottom: 10px;
+}
+
+#info-container {
+	margin-top: 2em;
+	width: 90%;
+}
+
+#call-to-action-form-large {
+	max-width: 30%;
+	border-radius: 10px;
+	background-color: rgba(255,255,255,.2);
+	padding: 20px 10px 20px 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 200px;
+	margin-right: 50px;
+}
+
+#texto-container-large {
+	background-color: rgba(102,172,217,.7);
+	border-radius: 10px;
+	padding: 10px;
+}
+#info-container p {
+	font-family: 'Abel', bold sans-serif;
+	color: white; 
+	font-size: 25px;
+}
+
+#medios-container-large {
+	background-color: #E77626;
+	border-radius: 10px;
+	margin-top: 50px;
+	padding: 5px;
+	max-width: 50%;
+}
+
+#medios-container-large img {
+	width: 35px;
+	margin: 0 5px;
+}
+
+#medios-container-large h3 {
+	font-family: 'Abel', bold sans-serif;
+	color: white;
+	margin: 0px;
+}
+
+#medios-container-large label {
+	font-size: 20px;
+}
+
+#info-container .button {
+	width: 30%;
 }
